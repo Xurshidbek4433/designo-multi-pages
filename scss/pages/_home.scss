@@ -64,8 +64,7 @@ main {
 
 .galery__item:hover {
   opacity: 0.5;
-  background-color: $light-peach-color;
-}
+  }
 
 .galery__title {
   color: $white-color;
@@ -104,6 +103,9 @@ main {
   align-items: center;
   text-align: center;
 }
+.galery__inner-top:hover{
+  opacity: 0.5;
+}
 .galery__inner-bottom {
   background-image: url("/images/galarey-top3.png");
   background-repeat: no-repeat;
@@ -118,9 +120,13 @@ main {
   align-items: center;
 }
 
+.galery__inner-bottom:hover{
+  opacity: 0.5;
+}
+
 .friendly__container {
   width: 100%;
-  margin-bottom: 15rem;
+  margin-bottom: 30rem;
 }
 
 .friendly__item {
@@ -145,6 +151,8 @@ main {
     margin-bottom: 3.2rem;
   }
 }
+
+
 
 @media screen and (max-width: 920px) {
   .hero__container-item {

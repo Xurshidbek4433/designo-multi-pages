@@ -26,7 +26,7 @@
 }
 
 .header__list-link {
-  color: #666;
+  color: $dark-grey-color;
   display: inline-block;
   margin: 0;
   text-transform: uppercase;
@@ -38,6 +38,7 @@
   border-bottom: solid 2px $dark-grey-color;
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
+  height: 1rem;
 }
 
 .header__list-link:hover:after {
