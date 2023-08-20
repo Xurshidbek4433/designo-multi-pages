@@ -59,10 +59,7 @@ body {
 .footer {
   background-color: $black-color;
 }
-.footer__container {
-}
-.container {
-}
+
 .footer__top {
   position: relative;
   background-color: $peach-color;
@@ -86,8 +83,7 @@ body {
     max-width: 480px;
   }
 }
-.footer__bottom-link {
-}
+
 .footer__header-container {
   display: flex;
   align-items: center;
@@ -97,15 +93,13 @@ body {
   border-bottom: 2px solid $dark-grey-color;
   padding-bottom: 4rem;
 }
-.footer__designo-logo {
-}
+
 .footer__inner {
   display: flex;
   align-items: center;
   gap: 4.2rem;
 }
-.footer-list-link {
-}
+
 .footer__list-link-item {
   color: $white-color;
   font-size: 1.4rem;
@@ -147,10 +141,7 @@ body {
 .footer-text1 {
   font-weight: 500;
 }
-.footer-text2 {
-}
-.footer__contact-item {
-}
+
 .footer__contact-list {
   a {
     color: $white-color;
@@ -164,7 +155,24 @@ body {
   align-items: flex-end;
   gap: 2rem;
 }
-.footer__contact-icon-link {
+
+.desing__item {
+  width: 100%;
+  background-color: $peach-color;
+  height: 252px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 2.4rem;
+  color: $white-color;
+  margin-bottom: 15rem;
+  p {
+    width: 100%;
+    max-width: 40rem;
+  }
 }
 
 @media screen and (max-width: 900px) {
