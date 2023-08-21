@@ -1,9 +1,3 @@
-.blog {
-}
-.blog__container {
-}
-.container {
-}
 .blog__item {
   display: flex;
   flex-wrap: wrap;
@@ -33,8 +27,8 @@
   }
 }
 
-.blog__list:hover{
-    background-color: $peach-color;
+.blog__list:hover {
+  background-color: $peach-color;
 }
 
 .web-galery__inner {
